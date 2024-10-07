@@ -1,0 +1,281 @@
+body{
+    background-color: #ffffff;
+}
+    
+ /* Resetando margens e preenchimentos padrão para todos os elementos */
+* {
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove preenchimentos */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Define a fonte padrão */
+}
+
+/* Estilo para a logo */
+.logo {
+    width: 150px; /* Define a largura da logo */
+}
+
+/* Estilo para a seção da página inicial */
+#pagina-home {
+    min-height: 905px; /* Define altura mínima para a seção */
+    background: linear-gradient(rgba(17,17,15,0.404), rgba(34,30,4,0.685)), url(../Img/pexels-chaitaastic-1797170.jpg); /* Gradiente e imagem de fundo */
+    background-size: cover; /* Cobre toda a área com a imagem */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-color: darkgrey;
+}
+
+/* Estilo para o menu principal */
+.menu-principal ul {
+    list-style: none; /* Remove marcadores da lista */
+}
+.menu-principal ul li {
+    display: inline-block; /* Exibe itens da lista lado a lado */
+}
+.menu-principal ul li a {
+    transition: 0.6s ease-in-out; /* Transição suave ao passar o mouse */
+    border-radius: 50px; /* Arredonda os cantos do botão */
+    color: white; /* Define a cor do texto como branca */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    text-transform: uppercase; /* Transforma texto em maiúsculas */
+    padding: 5px 20px; /* Adiciona espaço interno */
+    border: 1px solid transparent; /* Define uma borda invisível */
+    transition: 0.010s ease; /* Transição rápida para os links */
+}
+.menu-principal ul li a:hover {
+    background-color: white; /* Muda fundo para branco ao passar o mouse */
+    color: black; /* Muda a cor do texto para preto ao passar o mouse */
+}
+.menu-principal ul li .link-ativo {
+    background: white; /* Define fundo branco para o link ativo */
+    color: black; /* Muda a cor do texto para preto no link ativo */
+}
+
+/* Estilo para a categoria */
+.categoria {
+    display: flex; /* Habilita layout flexível */
+    align-items: flex-end; /* Alinha itens ao fundo do contêiner */
+    justify-content: space-between; /* Espaça itens uniformemente */
+}
+
+/* Estilo para títulos de nível 1 */
+h1 {
+    font-size: 70px; /* Define tamanho da fonte */
+    color: white; /* Define a cor do texto como branca */
+    margin: 30px; /* Adiciona margens ao redor do título */
+    letter-spacing: 4px; /* Adiciona espaçamento entre as letras */
+}
+
+/* Estilo para botões */
+.btn {
+    border: 1px solid white; /* Define uma borda branca */
+    padding: 10px 80px; /* Adiciona espaço interno ao botão */
+    color: white; /* Define a cor do texto como branca */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: 0.6s ease; /* Transição suave ao passar o mouse */
+    margin: 10px; /* Adiciona margens ao redor do botão */
+    letter-spacing: 3px; /* Adiciona espaçamento entre as letras no botão */
+}
+
+.btn:hover {
+    background: rgb(255, 255, 255); /* Muda fundo para branco ao passar o mouse */
+    color: black; /* Muda a cor do texto para preto ao passar o mouse */
+}
+
+/* Estilo para o conteúdo do banner */
+.conteudo-banner {
+    height: 438px; /* Define altura fixa para o banner */
+    display: flex; /* Habilita layout flexível */
+    justify-content: center; /* Centraliza itens horizontalmente */
+    align-items: center; /* Centraliza itens verticalmente */
+    flex-direction: column; /* Organiza itens em coluna */
+}
+
+
+/*------------------------------------------------------------------------------------*/
+.passeios-1{
+    color: black; /* Altera a cor do link */
+    text-decoration: none; /* Remove o sublinhado do link */
+    border: 1px solid white; /* Define uma borda branca */
+    padding: 10px 80px; /* Adiciona espaço interno ao botão */
+    color: white; /* Define a cor do texto como branca */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: 0.6s ease-in-out; /* Transição suave ao passar o mouse */
+    margin: 5px; /* Adiciona margens ao redor do botão */
+    letter-spacing: 2px; /* Adiciona espaçamento entre as letras no botão */
+}
+
+.passeios-1 :hover{
+    background: rgb(255, 255, 255); /* Muda fundo para branco ao passar o mouse */
+    color: black; /* Muda a cor do texto para preto ao passar o mouse */
+}
+.title-1 {
+    display: flex; /* Habilita layout flexível para alinhar itens */
+    justify-content: space-between; /* Espaça itens ao longo da linha */
+    align-items: center; /* Centraliza itens verticalmente */
+    color: #ffffff;
+    letter-spacing: 3px; /* Adiciona espaçamento entre as letras no botão */
+    background-color: #000000;
+    background: linear-gradient(rgba(17,17,15,0.404), rgba(34,30,4,0.685)), url(../Img/bluee.jpeg); /* Gradiente e imagem de fundo */
+    width: 1583px;
+    height: 70px;
+}
+
+.title-1 a {
+    color: black; /* Altera a cor do link */
+    text-decoration: none; /* Remove o sublinhado do link */
+    border: 1px solid white; /* Define uma borda branca */
+    padding: 10px 80px; /* Adiciona espaço interno ao botão */
+    color: white; /* Define a cor do texto como branca */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: 0.6s ease-in-out; /* Transição suave ao passar o mouse */
+    margin: 5px; /* Adiciona margens ao redor do botão */
+    letter-spacing: 2px; /* Adiciona espaçamento entre as letras no botão */
+}
+
+.title-1 a:hover{
+    background: rgb(255, 255, 255); /* Muda fundo para branco ao passar o mouse */
+    color: black; /* Muda a cor do texto para preto ao passar o mouse */
+}
+/*------------------------------------------------------------------------------------*/
+
+.banner-principal {
+    display: flex; /* Habilita layout flexível para os banners */
+    justify-content: space-around; /* Distribui os itens uniformemente */
+    margin: 20px; /* Margem ao redor da seção */
+}
+
+.banner-item {
+    margin: 10px; /* Adiciona margem ao redor de cada contêiner de imagem */
+    text-align: center; /* Centraliza o texto */
+    width: 314px; /* Define a largura fixa para o item */
+    height: 500px; /* Define a altura fixa para o item */
+    overflow: hidden; /* Esconde conteúdo que ultrapassa o contêiner */
+    margin-top: 1px;
+    transition: transform 0.3s ease; /* Adiciona a transição */
+}
+
+.banner-item:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do item ao passar o mouse */
+}
+
+.banner-item img {
+    width: 100%; /* Faz a imagem ocupar 100% da largura do contêiner */
+    height: 80%; /* Define altura para a imagem, ocupando 80% do contêiner */
+    object-fit: cover; /* Corta a imagem para caber no contêiner, mantendo a proporção */
+    border-radius: 5px 5px 5 5px; /* Arredonda apenas o topo da imagem */
+    background-color: #181512;
+    border: 1px solid black; /* Adiciona a borda apenas na imagem */
+}
+
+.banner-item p {
+    text-align: center;
+    background-color: #C95E10;
+    border-radius: 10px;
+    border: 10px;
+}
+
+/*------------------------------------------------------------------------------------------*/
+.valores {
+    display: flex; /* Habilita layout flexível para alinhar itens */
+    justify-content: space-between; /* Espaça itens ao longo da linha */
+    align-items: center; /* Centraliza itens verticalmente */
+    color: #ffffff;
+    letter-spacing: 3px; /* Adiciona espaçamento entre as letras no botão */
+    background-color: #000000;
+    background: linear-gradient(rgba(17,17,15,0.404), rgba(34,30,4,0.685)), url(../Img/bluee.jpeg); /* Gradiente e imagem de fundo */
+    width: 1583px;
+    height: 70px;
+ 
+}
+
+
+.valores a {
+    color: black; /* Altera a cor do link */
+    text-decoration: none; /* Remove o sublinhado do link */
+    border: 1px solid white; /* Define uma borda branca */
+    padding: 10px 80px; /* Adiciona espaço interno ao botão */
+    color: white; /* Define a cor do texto como branca */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: 0.6s ease-in-out; /* Transição suave ao passar o mouse */
+    margin: 5px; /* Adiciona margens ao redor do botão */
+    letter-spacing: 2px; /* Adiciona espaçamento entre as letras no botão */
+}
+
+.valores a:hover{
+    background: rgb(255, 255, 255); /* Muda fundo para branco ao passar o mouse */
+    color: black; /* Muda a cor do texto para preto ao passar o mouse */
+}
+
+.valores-1{
+    color: black;
+    text-decoration: none; /* Remove o sublinhado do link */
+    border: 1px solid white; /* Define uma borda branca */
+    padding: 10px 80px; /* Adiciona espaço interno ao botão */
+    color: white; /* Define a cor do texto como branca */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: 0.6s ease-in-out; /* Transição suave ao passar o mouse */
+    margin: 5px; /* Adiciona margens ao redor do botão */
+    letter-spacing: 2px; /* Adiciona espaçamento entre as letras no botão */
+}
+
+table{
+    border-radius: 2px;
+    font-family: times new roman;
+    letter-spacing: 1px;
+    width: 50%;
+
+}
+
+ th, td{
+  
+    padding: 19px 30px;
+    border: none;
+ }
+
+ .table-3{
+    background-color: #d9d9d9;
+    width: 250px;
+    height: 100px;
+ }
+ 
+ 
+ table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+   border: 2px solid;
+    padding: 20px;
+    text-align: left;
+}
+
+thead{
+  
+    padding: 20px;
+    text-align: left;
+}
+
+/* Estilo para o rodapé */
+.rodape { 
+    background-image: url(../Img/orangee.jpg); /* Caminho para a imagem de fundo */
+    background-size: cover; /* Cobre toda a área do rodapé */
+    background-position: center; /* Centraliza a imagem */
+    height: 100px; /* Altura do rodapé */
+    text-align: right; /* Centraliza o texto */
+    color: white; /* Cor do texto */
+    display: flex; /* Flexbox para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    
+}
+
+.zapzap {
+    background-image: url(../Img/icone.png); /* Caminho para o ícone */
+    width: 30px; /* Largura do ícone */
+    height: 30px; /* Altura do ícone */
+    background-size: contain; /* Mantém a proporção da imagem */
+
+    margin-left: 10px; /* Espaço entre o texto e o ícone */
+}
+
+
