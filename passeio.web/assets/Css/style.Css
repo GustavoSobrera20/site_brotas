@@ -116,7 +116,7 @@ h1 {
     letter-spacing: 3px; /* Adiciona espaçamento entre as letras no botão */
     background-color: #000000;
     background: linear-gradient(rgba(17,17,15,0.404), rgba(34,30,4,0.685)), url(../Img/bluee.jpeg); /* Gradiente e imagem de fundo */
-    width: 1583px;
+    width: 1600px;
     height: 70px;
 }
 
